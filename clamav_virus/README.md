@@ -18,6 +18,7 @@ clamAV_ver='clamav-0.100.0.tar.gz'
 # scan_clamav.sh 脚本
 这个脚本是使用clamav扫描你指定的目录并将结果保存到你指定的目录
 
+脚本内定义变量：
 user_dir 用来定义你要扫描的目录
 ```
 user_dir=(
