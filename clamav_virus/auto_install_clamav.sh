@@ -40,7 +40,7 @@ function test_rpm_packeges(){
 
 function install_rpm_packeges(){
     local pkg=$1
-    for i in ${$pkg[@]}{
+    for i in ${pkg[@]}
     do
         yum install $i -y 1>/dev/null
     done
