@@ -9,7 +9,7 @@ sh <script_name> -d <db_path> -b <backup_path> -l <lvm_name> -v <vg_of_lvm>
 #--binlog 备份数据的同时备份binlog文件
 ```
 
-##restore_mysql_data_lvm.sh脚本还原lvm备份的mysql数据库
+## restore_mysql_data_lvm.sh脚本还原lvm备份的mysql数据库
 ### 使用范例
 ```
 sh <script_name> -d <db_path> -b <backup_path>
